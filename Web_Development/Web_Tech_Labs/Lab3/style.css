@@ -1,0 +1,181 @@
+/* Feel free to customize styles.css as you wish, the selectors and comments provided
+are simply added as a way to provide guidance. You may use any HTML selectors, classes,
+and ids already in place in the index.html file you were provided within this stylesheet.
+In this lab, you'll be using both CSS1 and CSS2 properties, though you are provided with 
+the general layout of your lab in the wireframe provided, you do have complete creative 
+freedom over your lab, so have fun! */
+
+
+/* General Styles */
+body {
+    color: #333;
+    font: normal 16px/150% Arial, Helvetica, sans-serif;
+    background-color: #efe6e6e5;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+nav ul {
+    display: grid;
+    grid-auto-flow: column; 
+    list-style: none;
+    padding: 0;
+}
+
+nav {
+    background-color: grey;
+    padding: 1px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #ddd; 
+}
+
+nav ul li a:focus {
+    background-color: #007BFF;
+    color: white; 
+}
+
+.featureImage {
+    background-image: url('../images/sam.jpg'); 
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.textContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+/* Text Column Styles */
+#textColumn {
+    padding: 20px; 
+    background-color: #fff;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+/* Form Column Styles */
+#formColumn {
+    padding: 20px; 
+    background-color: #fff;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    padding-top: 55px;
+}
+
+form#contact input[type="text"],
+form#contact textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+form#contact textarea {
+    height: 100px;
+}
+
+form#contact input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer; 
+    border-radius: 5px;
+}
+
+form#contact input[type="submit"]:hover {
+    background-color: #ddd;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 7px;
+    background-color: grey;
+    border-radius: 9px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Responsive Styles */
+
+/* Tablet Mode */
+@media (max-width: 960px) {
+    .textContent {
+        grid-template-columns: 1fr; 
+    }
+
+    nav ul {
+        grid-auto-flow: row; 
+        justify-items: right; 
+    }
+
+    nav ul li {
+        margin-left: 0; 
+        margin-bottom: 10px; 
+    }
+}
+
+/* Mobile Mode */
+@media (max-width: 640px) {
+    body {
+        padding: 10px; 
+    }
+
+    nav ul {
+        grid-auto-flow: row; 
+        justify-items: right; 
+    }
+
+    nav ul li {
+        margin-left: 0; 
+        margin-bottom: 10px; 
+    }
+
+    .featureImage {
+        height: 150px; 
+    }
+
+    #textColumn, #formColumn {
+        padding: 15px; 
+    }
+}
