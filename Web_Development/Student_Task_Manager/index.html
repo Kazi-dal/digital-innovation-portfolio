@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Student Task Manager</h1>
+        <div id="app">
+            <!-- Task Form -->
+            <form id="taskForm">
+                <input type="text" id="title" placeholder="Task Title" required>
+                <input type="text" id="description" placeholder="Task Description">
+                <input type="date" id="deadline" required>
+                <button type="submit">
+                    <span>➕ Add Task</span>
+                </button>
+            </form>
+
+            <!-- Task List -->
+            <h2>Tasks</h2>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+</body>

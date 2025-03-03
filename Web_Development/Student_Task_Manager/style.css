@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Uses your saved image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed during scrolling */
+    color: #333; /* Keeps the text readable */
+}
+
+/* Main container */
+#container {
+    position: relative; /* Keeps the container on top of the background */
+    z-index: 10; /* Ensures it's above the background */
+    margin: 50px auto; /* Centers the container */
+    padding: 20px;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.95); /* Slightly more opaque for better readability */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Task form */
+#taskForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 15px;
+}
+
+#taskForm input {
+    border-radius: 5px;
+}
+
+
+/* Task list */
+#taskList {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    list-style: none;
+}
+
+/* Individual task list items */
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#taskList li:hover {
+    background-color: rgba(230, 230, 230, 0.8);
+}
+
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
