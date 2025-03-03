@@ -1,17 +1,18 @@
-# Example 6 (e6) - Saving User Input in a File
+# Example 6 (e6) - URL Rewriting with `.htaccess`
 
 ## Objective
-This lab focuses on capturing and storing user input in a text file.
+This lab explores **mod_rewrite** in `.htaccess` to create cleaner, SEO-friendly URLs.
 
 ## Key Tasks:
-- Modify the CGI script to save form data into a `.txt` file.
-- Ensure data is appended rather than overwritten.
-- Display stored submissions on another page.
+- Use **RewriteRule** to convert dynamic URLs into user-friendly URLs.
+- Test URL redirection to ensure proper navigation.
+
+## Required Materials:
+- `.htaccess` file (Available in **[e2/material](../e2/material/)**)
 
 ## Technologies Used:
-- Perl
-- CGI scripting
-- File I/O operations
+- Apache `.htaccess`
+- mod_rewrite module
 
 ## Output:
-User input should be logged in a text file and retrievable via a webpage.
+Users should access pages using **clean URLs** (e.g., `example.com/about` instead of `example.com?page=about`).
