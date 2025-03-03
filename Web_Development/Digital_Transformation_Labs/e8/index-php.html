@@ -1,0 +1,26 @@
+<html>
+<head><title>Conference Registration</title></head>
+<body>
+  <h1>Conference Registration</h1>
+
+  <p>This is a registration page for CoMS.<br/>
+  For additional documents, please check <a href="material">here</a>.<br/>
+  Please enter your information below to register:
+
+  <form method="post" action="register.php">
+  <table>
+    <tr><th align=right>First and last name:</th>
+      <td><input type="text" name="name"></td></tr>
+  <tr><th align=right>Email:</th>
+      <td><input type="text" name="email"></td></tr>
+  <tr><th>Certificate (DB, HI, DS):</td>
+	<td><select name="certificate">
+	<option>DB</option><option>HI</option>
+	<option>DS</option></select></td></tr>
+<tr><td align=center colspan=2>
+<input type="submit" value="Submit"/></td></tr>
+
+  </table>
+  </form>
+</body>
+</html>
