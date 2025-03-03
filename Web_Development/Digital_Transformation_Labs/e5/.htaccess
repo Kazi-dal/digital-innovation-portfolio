@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName dgin5201
+AuthUserFile /users/webhome/kalam/dgin5201/e3/.htpasswd
+AuthGroupFile /dev/null
+<Limit GET POST>
+require user dt
+</Limit>
