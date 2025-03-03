@@ -1,0 +1,12 @@
+
+name: Kazi Alam
+email: kz731723@dal.ca
+certificate: DS
+
+name: Tamanna Azad
+email: azadtamanna24@gmail.com
+certificate: HI
+
+name: Kazi Alam
+email: alimulasif24@gmail.com
+certificate: DB
