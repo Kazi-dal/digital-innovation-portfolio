@@ -8,6 +8,10 @@ This lab introduces `.htaccess` authentication to protect a webpage.
 - Create a `.htpasswd` file with encrypted credentials.
 - Test authentication by accessing the protected page via a browser.
 
+## Required Materials:
+- `.htaccess` and `dt-mini-conf.pdf` (Available in **[e2/material](../e2/material/)**)
+- `.htpasswd` file (created in this lab)
+
 ## Technologies Used:
 - Apache `.htaccess`
 - `.htpasswd` authentication
