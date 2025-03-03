@@ -1,16 +1,18 @@
-# Example 7 (e7) - Emailing Form Data
+# Example 7 (e7) - IP Address Restriction using `.htaccess`
 
 ## Objective
-This lab enables users to send form submissions via email.
+This lab configures `.htaccess` to **allow or block specific IP addresses** from accessing a website.
 
 ## Key Tasks:
-- Configure a mail server for email sending.
-- Write a CGI script to send form data to an email.
-- Test the email functionality with different inputs.
+- Modify `.htaccess` to **restrict access** to a specific IP range.
+- Create an **allowlist** of trusted IPs.
+
+## Required Materials:
+- `.htaccess` file (Available in **[e2/material](../e2/material/)**)
 
 ## Technologies Used:
-- Perl
-- Sendmail/Postfix
+- Apache `.htaccess`
+- IP-based access control
 
 ## Output:
-Form submissions should be delivered to an email inbox successfully.
+Only visitors from **allowed IP addresses** should be able to access the site.
