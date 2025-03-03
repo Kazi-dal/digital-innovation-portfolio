@@ -1,17 +1,18 @@
-# Example 5 (e5) - CGI and Perl Backend Processing
+# Example 5 (e5) - Enforcing HTTPS using `.htaccess`
 
 ## Objective
-This lab introduces Common Gateway Interface (CGI) scripting with Perl.
+This lab implements `.htaccess` rules to enforce **secure HTTPS connections** for all website visitors.
 
 ## Key Tasks:
-- Write a Perl script to process form submissions.
-- Display form input on a webpage dynamically.
-- Set up file permissions for CGI execution.
+- Modify `.htaccess` to automatically redirect HTTP requests to HTTPS.
+- Ensure all website pages load securely using SSL/TLS.
+
+## Required Materials:
+- `.htaccess` file (Available in **[e2/material](../e2/material/)**)
 
 ## Technologies Used:
-- Perl
-- CGI scripting
-- Linux permissions
+- Apache `.htaccess`
+- SSL/TLS encryption
 
 ## Output:
-The Perl script should successfully display submitted form data.
+All users should be automatically redirected to the **HTTPS version** of the site.
