@@ -1,9 +1,9 @@
 # Student Task Manager 📝🎯
 
 ## 📌 Project Overview
-The **Student Task Manager** is a web-based application designed to help students **organize, track, and manage academic tasks efficiently**.
+The **Student Task Manager** is an ongoing project aimed at helping students **organize, track, and manage academic tasks efficiently**.
 
-## 🔹 Features
+## 🔹 Features (Planned & Implemented)
 - ✅ **Task Scheduling**: Add, edit, and delete tasks.
 - ✅ **Deadline Reminders**: Set due dates and get notifications.
 - ✅ **Progress Tracking**: Monitor task completion percentage.
@@ -11,12 +11,18 @@ The **Student Task Manager** is a web-based application designed to help student
 
 ## 🛠 Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python (Flask/Django) / Node.js (if applicable)
-- **Database:** SQLite / PostgreSQL / Firebase
+- **Backend:** Python (Flask) *(In Progress)*
+- **Database:** SQLite *(In Progress)*
 
 ## 📂 Files:
-- 📄 **[Project Documentation](./Student_Task_Manager_Documentation.pdf)** *(Upload if available)*
-- 📄 **[Code Files]** (Upload HTML, CSS, JS, Python files)
+- 📄 **Code Files** *(Uploaded & More Updates Coming)*
+- 📄 **Project Documentation** *(To be added upon completion)*
+
+## ⏳ Work in Progress
+- [ ] Backend logic for task storage
+- [ ] User authentication system
+- [ ] UI Enhancements
+- [ ] Final testing & deployment
 
 ## 🔜 Future Enhancements
 - 📲 **Mobile App Version**
