@@ -1,17 +1,19 @@
-# Example 8 (e8) - PHP and Python Scripting
+# Example 8 (e8) - Redirecting Visitors Based on Language or Location
 
 ## Objective
-This lab explores using PHP and Python to handle user requests.
+This lab implements **GeoIP and language-based redirection** using `.htaccess`.
 
 ## Key Tasks:
-- Implement a PHP script to process form data.
-- Write a Python script for data analysis on collected form responses.
-- Compare performance between PHP and Python implementations.
+- Configure `.htaccess` to detect **user language settings**.
+- Redirect users to the appropriate language version of the site.
+- Optionally, implement **GeoIP-based redirection**.
+
+## Required Materials:
+- `.htaccess` file (Available in **[e2/material](../e2/material/)**)
 
 ## Technologies Used:
-- PHP
-- Python
-- MySQL (for optional data storage)
+- Apache `.htaccess`
+- GeoIP database (optional)
 
 ## Output:
-The system should process form data using PHP/Python and display relevant results.
+Visitors should be **automatically redirected** to the appropriate language version based on browser settings.
