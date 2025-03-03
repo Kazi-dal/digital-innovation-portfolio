@@ -15,6 +15,7 @@ Lab 6	Responsive Web Design (Media Queries)
 Lab 7	JavaScript Async & API Calls
 Lab 8	Interactive UI using JavaScript
 Lab 9	Final Project - Web App Implementation
+
 🚀 Technologies Used
 HTML5
 CSS3 (Flexbox, Grid, Media Queries)
